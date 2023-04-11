@@ -1,8 +1,9 @@
-package exer;
+package chap02;
 
 import java.util.Scanner;
 
-public class Hello {
+public class Exercise4_10 {
+
     public static void main(String[] args) {
         // 1~100사이의 임의의 값을 얻어서  answer에 저장한다.
         int answer = (int) (Math.random() * 100 + 1);   //수정
