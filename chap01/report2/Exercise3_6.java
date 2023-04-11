@@ -6,8 +6,8 @@ package chap01.report2;
 class Exercise3_6{
     public static void main(String[] args){
         int fahrenheit = 100;
-        float celcius = (((float)fahrenheit-32)*5/9*100>=0.5?(float) Math.ceil((double)(((float)fahrenheit-32)*5/9*100))/100:(float) Math.ceil((double)((float)fahrenheit-32)*5/9*100)/100);
-
+        float celcius = (float)(fahrenheit-32)*5/9*100-(float)Math.floor((float)(fahrenheit-32)*5/9*100)>=0.5
+                ? (float) Math.ceil((double) (float)(fahrenheit-32)*5/9*100) / 100 : (float) Math.floor((double)(float)(fahrenheit-32)*5/9*100) / 100;
         System.out.println("Fahrenheit:"+fahrenheit);
         System.out.println("Celcius:"+celcius);
     }
