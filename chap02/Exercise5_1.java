@@ -9,7 +9,7 @@ public class Exercise5_1 {
         int[] arr1 = {1, 2, 3,};
         int[] arr2 = new int[5];
         //int[] arr3 = new int[5]{1,2,3,4,5}; //이 경우 []안에 숫자를 넣으면 안된다.
-        //int arr4[ 5]; //공백
+        //int arr4[ 5]; //선언시 크기지정 할 수 없음
         int[] arr5[] = new int[3][];
 
     }

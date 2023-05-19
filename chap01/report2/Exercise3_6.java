@@ -6,8 +6,11 @@ package chap01.report2;
 class Exercise3_6{
     public static void main(String[] args){
         int fahrenheit = 100;
-        float celcius = (float)(fahrenheit-32)*5/9*100-(float)Math.floor((float)(fahrenheit-32)*5/9*100)>=0.5
-                ? (float) Math.ceil((double) (float)(fahrenheit-32)*5/9*100) / 100 : (float) Math.floor((double)(float)(fahrenheit-32)*5/9*100) / 100;
+        //float celcius = (float)(fahrenheit-32)*5/9*100-(float)Math.floor((float)(fahrenheit-32)*5/9*100)>=0.5
+        //        ? (float) Math.ceil((double) (float)(fahrenheit-32)*5/9*100) / 100 : (float) Math.floor((double)(float)(fahrenheit-32)*5/9*100) / 100;
+        //float celcius= (int)((5/9f * (fahrenheit-32))*100+0.5)/100f;
+        float celcius=(int)((fahrenheit-32)*5/9f*100+0.5);
+        //5사5입을 사용한다 가정할때만 이렇게 사용한다.
         System.out.println("Fahrenheit:"+fahrenheit);
         System.out.println("Celcius:"+celcius);
     }

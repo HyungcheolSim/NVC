@@ -5,20 +5,23 @@ public class Exercise2_8 {
 
 
 //2-4. 다음 중 변수를 잘못 초기화 한 것은?
-        //  byte b = 256;   byte는 -127~ 128까지 표현 가능
+        //답: 1,2,3,4
+
+        /*
+        //  1. byte b = 256;   byte는 -127~ 128까지 표현 가능
         short b1 = 256;
         byte b2 = 127; //범위가 더 큰 short 타입을 사용하거나 리터럴 수를 범위 내 숫자로 변경
 
-        // char c = '';  char은 빈 문자 초기화 불가, 공백 하나 띄우고 사용해야 함
+        // 2. char c = '';  char은 빈 문자 초기화 불가, 공백 하나 띄우고 사용해야 함
         char c = ' ';
-        //  char answer = 'no'; char은 한 문자만 입력받을 수 있다. no는 두 글자라서 초기화 오류
+        //  3. char answer = 'no'; char은 한 문자만 입력받을 수 있다. no는 두 글자라서 초기화 오류
         char answer = 'n';
         String strAnswer = "no";
-        //  float f = 3.14        뒤에 f를 붙여줘야 한다.(생략 불가)
+        //  4. float f = 3.14        뒤에 f를 붙여줘야 한다.(생략 불가)
         float f = 3.14f;
-        // double d = 1.4e3f;    double 형은 리터럴 뒤에 d 또는 생략 가능
-        double d = 1.4e3;
-
+        // 5. double d = 1.4e3f;    가능.
+        double d = 1.4e3f;
+        */
 
 //2-7. 다음 문장들의 출력 결과를 적으세요. 오류가 있는 문장의 경우, '오류' 라고 적으세요.
         System.out.println("1" + "2"); //12
